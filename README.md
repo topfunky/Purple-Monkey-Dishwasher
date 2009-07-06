@@ -1,7 +1,7 @@
 Purple Monkey Dishwasher
 ========================
 
-An example of a simple Sinatra app with Cucumber and Rack::Test integration.
+An example of how to use Cucumber and Rack::Test with Sinatra.
 
 ## Running
 
