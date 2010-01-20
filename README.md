@@ -20,19 +20,19 @@ An example of how to use Cucumber and Rack::Test with Sinatra.
 
 A default config/cucumber.yml and Rake tasks are also included.
 
-  # See all Rake tasks
-  % rake -T
+    # See all Rake tasks
+    % rake -T
 
 You can run your cucumbers in your default Rake task:
 
-  # In your Rakefile
-  task :default => :cucumber
+    # In your Rakefile
+    task :default => :cucumber
 
-  # From the command line
-  % rake
+    # From the command line
+    % rake
 
 Or with other tasks:
 
-  # In your Rakefile
-  task :default => [:cucumber, :spec]   
+    # In your Rakefile
+    task :default => [:cucumber, :spec]   
 
